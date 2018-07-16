@@ -43,6 +43,7 @@ else
   #10 - (10*50%), 10 - 5 = 5
   return "After the discount, the total comes to $#{@total}."
 end
+end
 
 
 
