@@ -35,6 +35,7 @@ def apply_discount
 
 #self.total = total * (discount/100)
 #@total.round
+binding.pry
 if @discount == 0
     return "There is no discount to apply."
 else
@@ -42,7 +43,7 @@ else
   #new instance var total = instance var total - (instance var total * discount)
   #10 - (10*50%), 10 - 5 = 5
   return "After the discount, the total comes to $#{@total}."
-binding.pry
+
 end
 end
 
