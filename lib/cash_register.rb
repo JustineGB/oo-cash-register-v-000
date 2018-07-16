@@ -36,6 +36,7 @@ def apply_discount
 #self.total = total * (discount/100)
 #@total.round
 if @discount == 0
+    @total
     return "There is no discount to apply."
 else
   @total -= @total * (discount/100)
