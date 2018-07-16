@@ -38,6 +38,7 @@ def apply_discount
 if @discount == 0
     @total
     return "There is no discount to apply."
+  end 
 else
   @total -= @total * (discount/100)
   @total
