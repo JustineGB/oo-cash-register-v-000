@@ -39,6 +39,7 @@ if @discount == 0
     return "There is no discount to apply."
 else
   @total -= @total * (discount/100)
+  @total
   #new instance var total = instance var total - (instance var total * discount)
   #10 - (10*50%), 10 - 5 = 5
   return "After the discount, the total comes to $#{@total}."
