@@ -35,7 +35,7 @@ def apply_discount
 
 #self.total = total * (discount/100)
 #@total.round
-binding.pry
+#binding.pry
 if @discount == 0
     return "There is no discount to apply."
 else
